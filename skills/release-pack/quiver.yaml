@@ -1,0 +1,21 @@
+id: release-pack
+kind: skill
+version: 1.0.0
+title: Release a pack
+description: 'Release a Quiver pack: choose the semver bump, update the manifest, changelog and README, check with the tag, protect release tags, tag and verify.'
+card: 'A pack is ready for a new version: bump, changelog, check with the tag, then the protected release tag Quiver serves.'
+discovery:
+  queries:
+  - release a new version of my pack
+  - tag a quiver pack release
+  - why is my new pack version not served
+tags:
+- packs
+- authoring
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content

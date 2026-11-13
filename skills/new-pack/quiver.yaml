@@ -1,0 +1,21 @@
+id: new-pack
+kind: skill
+version: 1.0.0
+title: Start a new pack
+description: 'Start a Quiver pack repository from the template: decide its boundary and readers, fill the manifest, add the first artifacts and get the check green.'
+card: 'Starting a new Quiver pack: pick its theme and readers, create the repository from the template, fill the manifest.'
+discovery:
+  queries:
+  - create a new quiver pack
+  - share my agent skills with my team
+  - start a pack repository from the template
+tags:
+- packs
+- authoring
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content

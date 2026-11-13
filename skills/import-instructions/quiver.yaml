@@ -1,0 +1,21 @@
+id: import-instructions
+kind: skill
+version: 1.0.0
+title: Import existing agent instructions
+description: 'Turn CLAUDE.md, AGENTS.md, Cursor rules, Copilot instructions or chat custom instructions into pack artifacts: sort rules, procedures and project facts, then write them.'
+card: 'Someone already has CLAUDE.md, AGENTS.md, Cursor rules or custom instructions: turn them into skills and rulebooks of a pack.'
+discovery:
+  queries:
+  - turn my CLAUDE.md into a quiver pack
+  - import cursor rules into a pack
+  - reuse my custom instructions in every AI tool
+tags:
+- packs
+- authoring
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content

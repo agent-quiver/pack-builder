@@ -1,0 +1,24 @@
+id: standards.quiver-pack
+kind: resource
+version: 1.1.0
+title: Quiver pack standard
+description: 'The Quiver pack standard: one forge repository per pack and access unit, the layout, the pack manifest,
+  skill references, release tags, the check gate and how agents and code repositories consume a pack.'
+card: 'Creating or changing a Quiver pack repository: layout, quiver-pack.yaml, release tags and the check gate.'
+discovery:
+  queries:
+  - how to structure a quiver pack repository
+  - what goes in quiver-pack.yaml
+  - how to release a new version of a pack
+tags:
+- standards
+- packs
+- versioning
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content
+entrypoint: rules.md

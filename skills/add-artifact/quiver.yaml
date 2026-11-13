@@ -1,0 +1,21 @@
+id: add-artifact
+kind: skill
+version: 1.0.0
+title: Add or change an artifact
+description: 'Write one pack artifact to the standard: kind and id, the entrypoint, quiver.yaml, budgets, skill references and the version bump.'
+card: 'Adding or changing one skill, rulebook, workflow, tool contract or agent profile in a pack, to the standard.'
+discovery:
+  queries:
+  - add a skill to a quiver pack
+  - write a quiver.yaml manifest
+  - bump an artifact version in a pack
+tags:
+- packs
+- authoring
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content
