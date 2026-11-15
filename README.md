@@ -1,5 +1,7 @@
 # Pack builder
 
+[![Add to Agent Quiver](https://quiver.l13v.net/brand/add-to-agent-quiver.svg)](https://quiver.l13v.net/quiver?add=github.com/agent-quiver/pack-builder)
+
 `agent-quiver/pack-builder` is an open [Quiver pack](https://github.com/agent-quiver/pack-standard): the pack for
 making packs.
 
