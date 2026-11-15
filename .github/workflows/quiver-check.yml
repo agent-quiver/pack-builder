@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           fetch-depth: 0 # the secret scan reads the history
-      - uses: agent-quiver/quiver-check@599e16b8445450f5fc1ce82e0322e412384057be # pinned by commit until quiver-check is tagged
+      - uses: agent-quiver/quiver-check@396958d511761b72bb538d368f8f154f9af56f2b # pinned by commit until quiver-check is tagged

@@ -1,5 +1,5 @@
 id: agent-quiver/pack-builder
-version: 0.1.0
+version: 0.2.0
 title: Pack builder
 card: 'Building a Quiver pack: start one, turn existing agent instructions into artifacts, check it and release it.'
 description: 'The pack for making packs. new-pack starts a repository from the template; import-instructions turns
@@ -15,4 +15,8 @@ tags:
 - meta
 requires: []
 compatibility:
-  quiver: '>=1.0.0 <2.0.0'
+  quiver: '>=1.1.0 <2.0.0'
+media:
+  icon: media/icon.svg
+  banner: media/banner.png
+  accent: '#007198'
