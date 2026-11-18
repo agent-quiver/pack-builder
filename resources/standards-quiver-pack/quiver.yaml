@@ -1,6 +1,6 @@
 id: standards.quiver-pack
 kind: resource
-version: 1.1.0
+version: 1.1.1
 title: Quiver pack standard
 description: 'The Quiver pack standard: one forge repository per pack and access unit, the layout, the pack manifest,
   skill references, release tags, the check gate and how agents and code repositories consume a pack.'
@@ -22,3 +22,10 @@ audience:
 execution:
   mode: content
 entrypoint: rules.md
+provenance:
+  repo: l13v/engineering
+  path: resources/standards-quiver-pack
+  commit: 4509a338e033
+  sha256: a6f1bfddfbb076823e7503cf5ba4af0d435dd66d66747d5167da9c8232731370
+  imported: '2026-11-18'
+  mode: adapted

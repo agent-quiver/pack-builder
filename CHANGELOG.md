@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.2 (2026-11-18)
+
+- `standards.quiver-pack` 1.1.1: the same text as 1.1.0, now its own version with `provenance` (adapted from the
+  engineering pack's 1.1.0: the public schema URL and this pack's examples), so one version never names two texts.
+
 ## 0.4.1 (2026-11-18)
 
 - `fork-pack` 1.0.1: with Quiver 0.25.4, a fork's changed artifact is its own search hit; only unchanged copies

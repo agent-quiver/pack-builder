@@ -30,7 +30,7 @@ grow and release it to the pack standard.
 | skills | `fork-pack` | 1.0.1 | The person wants their own version of a pack: fork it with their git access, make it theirs, release it, and serve the fork in their quiver. |
 | skills | `release-pack` | 1.0.0 | A pack is ready for a new version: bump, changelog, check with the tag, then the protected release tag Quiver serves. |
 | resources | `packs.agent-access` | 1.0.0 | What can my agent do with packs? Create, change, retire, fork and release them with my own git access; the skill and access for each. |
-| resources | `standards.quiver-pack` | 1.1.0 | Creating or changing a Quiver pack repository: layout, quiver-pack.yaml, release tags and the check gate. |
+| resources | `standards.quiver-pack` | 1.1.1 | Creating or changing a Quiver pack repository: layout, quiver-pack.yaml, release tags and the check gate. |
 
 ## Licence
 
