@@ -55,7 +55,10 @@ uvx --from git+https://github.com/agent-quiver/quiver-check quiver-check . --tag
 
 Show the person the diff and wait for their word (`improve-artifact` §6–8: a merge request, also in their own
 fork). Offer to protect the default branch, so later changes also arrive by merge request; a private repository on a
-free plan may not offer protection — say so. Then tag with `release-pack`.
+free plan may not offer protection — say so.
+
+**Protect release tags first** (`release-pack` §4). Rulesets and protected tags do not come with a fork, and Quiver
+refuses to serve an unprotected tag on a forge that offers protection. Then tag with `release-pack`.
 
 ## 5. Put the fork in the quiver
 
@@ -66,7 +69,8 @@ quiver_add  pack=<host>/<owner>/<repo>
 With **both** the original and the fork in the quiver:
 
 - `search` shows an artifact the two serve with the same id and card once, naming the other copy in `also_in`;
-  an artifact whose card changed appears twice.
+  an artifact whose card changed appears twice. The shown hit is the copy added first, usually the original, **even
+  when the fork changed the artifact and raised its version**: the fork's version is behind its `also_in` name.
 - `fetch` with a bare id refuses as ambiguous; fetch by full name, `<pack id>:<artifact id>`.
 
 If the person wants only their version, remove the original: `quiver_remove pack=<original ref>`. Say so before
