@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 (unreleased)
+
+- `fork-pack` 1.0.0: fork someone else's pack with the person's own forge access and make it theirs (id,
+  maintainers, changelog), release it, and serve it in their quiver; what search and fetch do with both in the
+  quiver, and removing the original when only the fork is wanted.
+- `packs.agent-access` 1.0.0: what an agent can do with packs on the person's git access — create, read, update,
+  retire, fork, release — each with its skill and the access it needs.
+
 ## 0.3.0 (2026-11-18)
 
 - `improve-artifact` 1.0.0: the person says an artifact is wrong or should change, and the agent changes it in its

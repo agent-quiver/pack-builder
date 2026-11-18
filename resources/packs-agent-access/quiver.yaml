@@ -1,0 +1,23 @@
+id: packs.agent-access
+kind: resource
+version: 1.0.0
+title: What your agent can do with packs
+description: 'The index of pack work an agent does with the person''s own git access: create, read, update, add, retire, fork and release, each with its skill and the access it needs.'
+card: 'What can my agent do with packs? Create, change, retire, fork and release them with my own git access; the skill and access for each.'
+discovery:
+  queries:
+  - what can my agent do with packs
+  - can my agent edit or fork a pack
+  - how do I change a pack
+  - create update delete fork packs
+tags:
+- packs
+- authoring
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content
+entrypoint: guide.md

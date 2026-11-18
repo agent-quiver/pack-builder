@@ -1,0 +1,23 @@
+id: fork-pack
+kind: skill
+version: 1.0.0
+title: Fork a pack
+description: 'Fork someone else''s Quiver pack with the person''s own forge access, on their word: fork, make it theirs (id, maintainers, changelog), change it, release a tag, add the fork to their quiver, and remove the original if they want only theirs. Covers search and fetch with both in the quiver, staying current and giving back.'
+card: 'The person wants their own version of a pack: fork it with their git access, make it theirs, release it, and serve the fork in their quiver.'
+discovery:
+  queries:
+  - fork this pack and make it mine
+  - I want my own version of these skills
+  - customise a pack for my team
+  - copy a pack so I can edit it
+tags:
+- packs
+- authoring
+- forks
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content
