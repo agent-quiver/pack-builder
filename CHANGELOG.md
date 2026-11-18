@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1 (2026-11-18)
+
+- `fork-pack` 1.0.1: with Quiver 0.25.4, a fork's changed artifact is its own search hit; only unchanged copies
+  share one hit with `also_in`.
+
 ## 0.4.0 (2026-11-18)
 
 - `fork-pack` 1.0.0 (tried end to end on a test fork): fork someone else's pack with the person's own forge access and make it theirs (id,

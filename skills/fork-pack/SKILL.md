@@ -68,9 +68,8 @@ quiver_add  pack=<host>/<owner>/<repo>
 
 With **both** the original and the fork in the quiver:
 
-- `search` shows an artifact the two serve with the same id and card once, naming the other copy in `also_in`;
-  an artifact whose card changed appears twice. The shown hit is the copy added first, usually the original, **even
-  when the fork changed the artifact and raised its version**: the fork's version is behind its `also_in` name.
+- `search` shows an artifact the two serve unchanged once, naming the other copy in `also_in`. An artifact the
+  fork changed is a hit of its own, with the fork's pack and version (Quiver 0.25.4 and later).
 - `fetch` with a bare id refuses as ambiguous; fetch by full name, `<pack id>:<artifact id>`.
 
 If the person wants only their version, remove the original: `quiver_remove pack=<original ref>`. Say so before
