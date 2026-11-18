@@ -1,0 +1,23 @@
+id: improve-artifact
+kind: skill
+version: 1.0.0
+title: Improve an artifact
+description: 'Change one artifact of a Quiver pack because the person asked: find its source, branch improve/<id>, edit and try it locally, bump, check, show the diff, open a merge request, merge and tag on the person''s word, cite the new version. Guards against changes the person did not ask for.'
+card: 'The person says an artifact is wrong or should change: fix it in its pack through a merge request, on their word, and serve the new version.'
+discovery:
+  queries:
+  - fix a skill that is wrong
+  - change or improve an artifact in my quiver
+  - this rule should say something else, update it
+  - add a new skill to a pack
+  - remove or deprecate an artifact
+tags:
+- packs
+- authoring
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content

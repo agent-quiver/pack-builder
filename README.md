@@ -24,6 +24,7 @@ grow and release it to the pack standard.
 | skills | `new-pack` | 1.0.0 | Starting a new Quiver pack: pick its theme and readers, create the repository from the template, fill the manifest. |
 | skills | `import-instructions` | 1.0.0 | Someone already has CLAUDE.md, AGENTS.md, Cursor rules or custom instructions: turn them into skills and rulebooks of a pack. |
 | skills | `add-artifact` | 1.0.0 | Adding or changing one skill, rulebook, workflow, tool contract or agent profile in a pack, to the standard. |
+| skills | `improve-artifact` | 1.0.0 | The person says an artifact is wrong or should change: fix it in its pack through a merge request, on their word, and serve the new version. |
 | skills | `release-pack` | 1.0.0 | A pack is ready for a new version: bump, changelog, check with the tag, then the protected release tag Quiver serves. |
 | resources | `standards.quiver-pack` | 1.1.0 | Creating or changing a Quiver pack repository: layout, quiver-pack.yaml, release tags and the check gate. |
 

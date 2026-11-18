@@ -1,10 +1,10 @@
 id: agent-quiver/pack-builder
-version: 0.2.0
+version: 0.3.0
 title: Pack builder
-card: 'Building a Quiver pack: start one, turn existing agent instructions into artifacts, check it and release it.'
+card: 'Building a Quiver pack: start one, turn existing agent instructions into artifacts, improve one on request, check and release it.'
 description: 'The pack for making packs. new-pack starts a repository from the template; import-instructions turns
   an existing CLAUDE.md, AGENTS.md, Cursor rules or prompt files into skills and rulebooks; add-artifact writes one
-  artifact to the standard; release-pack tags a version that Quiver serves. The pack standard ships with it as a
+  artifact to the standard; improve-artifact changes one artifact through a merge request because the person asked; release-pack tags a version that Quiver serves. The pack standard ships with it as a
   rulebook.'
 maintainers:
 - agent-quiver
